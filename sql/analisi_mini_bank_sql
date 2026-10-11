@@ -1,0 +1,9 @@
+-- Conteggio clienti per stato di abbandono
+SELECT abbandonato, COUNT(*)
+FROM clienti_banca_clean
+GROUP BY abbandonato
+
+-- Saldo medio per stato di abbandono
+SELECT abbandonato, AVG(CAST(saldo_conto AS FLOAT))
+FROM clienti_banca_clean
+GROUP BY abbandonato
