@@ -36,7 +36,7 @@ mini-bank-project/
 │
 ├── dashboard/
 │   ├── mini_bank_dashboard.pbix
-│   └── grafico_abbandono.png
+│   
 │
 └── README.md
 ```
